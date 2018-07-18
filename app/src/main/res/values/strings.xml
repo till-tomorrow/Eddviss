@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Eddviss Integrated Project</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_icon">Add Icon</string>
+    <string name="enter_subject_name">Enter Subject Name</string>
+    <string name="enter_subject_descrptn">Enter Subject Description</string>
+    <string name="give_a_brief_description">GIVE A BRIEF DESCRIPTION</string>
+    <string name="enter_descrptn">Enter Description</string>
+    <string name="set_price">Set Price</string>
+    <string name="weekly">Weekly Price</string>
+    <string name="month">Monthly Price</string>
+    <string name="quaterly">Quaterly Price</string>
+    <string name="half">Half Yearly Price</string>
+    <string name="year">Yearly Price</string>
+    <string name="enter_new_subject_name">Enter new subject name</string>
+    <string name="Rs">Rs.</string>
+    <string name="submit">SUBMIT</string>
+</resources>
+
+

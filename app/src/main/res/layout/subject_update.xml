@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/imgIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1" />
+                //android:src="@mipmap/ic_launcher" />
+
+                <Button
+                    android:id="@+id/chooseimgBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:text="@string/add_image" />
+
+                <Button
+                    android:id="@+id/uploadimgBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="Upload Image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/iconIV"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+                //android:src="@mipmap/ic_launcher" />
+
+                <Button
+                    android:id="@+id/chooseiconBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_button"
+                    android:text="Choose Icon" />
+
+                <Button
+                    android:id="@+id/uploadiconBTN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="Upload Icon" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sunnameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/enter_subject_name"
+            android:textColor="@color/heading_color_blue"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/subnameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/underline_color"
+            android:hint="@string/enter_new_subject_name"
+            android:textColorHint="@color/text_color_hint" />
+
+        <TextView
+            android:id="@+id/subdescrptnTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/give_a_brief_description"
+            android:textColor="@color/heading_color_blue"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/subdescrptnET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/underline_color"
+            android:hint="@string/enter_descrptn"
+            android:textColorHint="@color/text_color_hint" />
+
+        <TextView
+            android:id="@+id/setpriceTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="@string/set_price"
+            android:textColor="@color/heading_color_blue"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/heading_color_blue"
+                android:text="@string/weekly"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/weeklyET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/underline_color"
+                android:hint="@string/Rs"
+                android:textColorHint="@color/text_color_hint" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/heading_color_blue"
+                android:text="@string/month"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/monthET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/underline_color"
+                android:hint="@string/Rs"
+                android:textColorHint="@color/text_color_hint" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/heading_color_blue"
+                android:text="@string/quaterly"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/quaterlyET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/underline_color"
+                android:hint="@string/Rs"
+                android:textColorHint="@color/text_color_hint" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/heading_color_blue"
+                android:text="@string/half"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/halfET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/underline_color"
+                android:hint="@string/Rs"
+                android:textColorHint="@color/text_color_hint" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/heading_color_blue"
+                android:text="@string/year"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/yearET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/underline_color"
+                android:hint="@string/Rs"
+                android:textColorHint="@color/text_color_hint" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submitBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:text="@string/submit"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="maroon">#800000</color>
+    <color name="heading_color">#4d0000</color>
+    <color name="heading_color_blue">#310066</color>
+    <color name="underline_color">#6300cc</color>
+    <color name="text_color_hint">#BABABA</color>
+
+</resources>
